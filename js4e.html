@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+             let holdCabinet1 = ["duct tape", "gum", 3.14, false, 6.022e23];
+      let holdCabinet2 = [
+        "orange drink",
+        "nerf toys",
+        "camera",
+        42,
+        "parsnip",
+      ];
+      document.write("holdCabinet1: [" + holdCabinet1 + "]<br>");
+      document.write("holdCabinet2: [" + holdCabinet2 + "]<br>");
+      const concatArr = holdCabinet1.concat(holdCabinet2);
+      document.write("concatArr: [" + concatArr + "]<br>");
+      document.write("holdCabinet1: [" + holdCabinet1 + "]<br>");
+      document.write("slice of holdCabinet1: [" + holdCabinet1.slice(2) + "]<br>");
+      document.write("slice of holdCabinet2: [" + holdCabinet2.slice(4) + "]<br>");
+      document.write("original Array holdCabinet1: [" + holdCabinet1 + "]<br>");
+      document.write("original Array holdCabinet2: [" + holdCabinet2 + "]<br>");
+
+      document.write("reverse of holdCabinet1: [" + holdCabinet1.reverse() + "]<br>");
+      document.write("sort of holdCabinet2: [" + holdCabinet2.sort() + "]<br>");
+        </script>
+    </body>
+</html>

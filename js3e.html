@@ -1,0 +1,23 @@
+<html>
+    <body>
+    <script>
+            let cargoHold = [
+        "oxygen tanks",
+        "space suits",
+        "parrot",
+        "instruction manual",
+        "meal packs",
+        "slinky",
+        "security blanket",
+      ];
+      document.write(cargoHold,"<br>");
+      cargoHold.splice(2, 0,"keys");
+      document.write(cargoHold,"<br>");
+      cargoHold.splice(cargoHold.indexOf("instruction manual"), 1);
+      document.write(cargoHold,"<br>");
+      cargoHold.splice(2, 0, "cat", "fob", "string cheese");
+      document.write(cargoHold,"<br>");
+
+    </script>
+    </body>
+</html>

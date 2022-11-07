@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+
+  <body>
+    
+    <script>
+      let cargoHold = [
+        "oxygen tanks",
+        "space suits",
+        "parrot",
+        "instruction manual",
+        "meal packs",
+        "slinky",
+        "security blanket",
+      ];
+
+      document.write(cargoHold,"<br>");
+      cargoHold[5]="space tether";
+      document.write(cargoHold.pop(),"<br>");
+      document.write(cargoHold,"<br>");
+      cargoHold.shift();
+      document.write(cargoHold,"<br>");
+      cargoHold.unshift(1138);
+      cargoHold.push("20 meters");
+      document.write(cargoHold,"<br>");
+      document.write( "[" + cargoHold + "] length of Array is: " + cargoHold.length);
+    </script>
+  </body>
+</html>
